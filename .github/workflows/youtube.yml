@@ -25,7 +25,7 @@ jobs:
           branch: main
           commit: true
           commit_message: "[skip ci] Upload changes"
-          remote: git@github.com:appleboy/whisper-action.git
+          remote: git@github.com:NoodlesStamps/whisper-action.git
           ssh_key: ${{ secrets.DEPLOY_KEY }}
           rebase: true
 
@@ -52,7 +52,7 @@ jobs:
           branch: main
           commit: true
           commit_message: "[skip ci] Upload changes"
-          remote: git@github.com:appleboy/whisper-action.git
+          remote: git@github.com:NoodlesStamps/whisper-action.git
           ssh_key: ${{ secrets.DEPLOY_KEY }}
           rebase: true
 
@@ -80,6 +80,6 @@ jobs:
           branch: main
           commit: true
           commit_message: "[skip ci] Upload changes"
-          remote: git@github.com:appleboy/whisper-action.git
+          remote: git@github.com:NoodlesStamps/whisper-action.git
           ssh_key: ${{ secrets.DEPLOY_KEY }}
           rebase: true
