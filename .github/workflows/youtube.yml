@@ -12,6 +12,7 @@ jobs:
       - name: speech to text
         uses: ./
         with:
+        
           model: small
           youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
           output_format: txt,srt,csv
